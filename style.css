@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: black;
+    border-bottom: 2px solid red;
+}
+.head{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.head p{
+    flex-basis: 40%;
+}
+.head a{
+    padding: 8px 20px;
+    background: brown;
+    color: white;
+    text-decoration: none;
+}
